@@ -1,0 +1,18 @@
+[project]
+name = "dnh"
+version = "0.1.0"
+description = "Do-no-harm conformally calibrated latent steering (Push-T first)"
+requires-python = ">=3.10"
+dependencies = [
+    "lerobot[pusht]==0.4.4",
+    "scipy>=1.10",
+    "scikit-learn>=1.3",
+    "pytest>=8",
+]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["dnh"]
