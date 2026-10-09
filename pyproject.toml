@@ -5,6 +5,7 @@ description = "Do-no-harm conformally calibrated latent steering (Push-T first)"
 requires-python = ">=3.10"
 dependencies = [
     "lerobot[pusht]==0.4.4",
+    "transformers>=4.53,<5",  # lerobot pins huggingface-hub<1; Colab's transformers 5.x needs >=1.31
     "scipy>=1.10",
     "scikit-learn>=1.3",
     "pytest>=8",
