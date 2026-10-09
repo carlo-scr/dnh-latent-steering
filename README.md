@@ -5,9 +5,8 @@ world model, with steering strength + abstention threshold certified by Learn-th
 Paper draft: [`../proposal/iros/main.tex`](../proposal/iros/main.tex).
 
 ## Run on Colab (A100)
-1. Push this folder to GitHub (`carlo-scr/dnh-latent-steering`, private) and add a read-only token as the Colab secret `GH_TOKEN`.
-2. In Colab: *File → Open notebook → GitHub* → this repo → `notebooks/colab_runner.ipynb`; select the A100 runtime.
-3. Run top to bottom. The setup cell clones (or pulls) the code; all outputs go to `MyDrive/dnh_runs`.
+[Open the runner in Colab](https://colab.research.google.com/github/carlo-scr/dnh-latent-steering/blob/main/notebooks/colab_runner.ipynb), select the A100 runtime, and run top to bottom.
+The setup cell clones (or pulls) this repo; all outputs go to `MyDrive/dnh_runs`.
 
 ## Pipeline
 | Step | Script | What it gives you |
